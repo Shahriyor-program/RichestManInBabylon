@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Сарватмандтарин марди Бобил</string>
+    <string name="author_name">Ҷорҷ Сэмюэл Клэйсон</string>
+    <string name="progress">18%</string>
+    <string name="time_audio">06 соату 56 дақиқа</string>
+    <string name="read">Хондан</string>
+    <string name="txt_content">Content</string>
+    <string name="txt_fragment_info">Info</string>
+    <string name="txt_more">More</string>
+
+    <string name="txt_conclusion">Хулоса</string>
+    <string name="txt_info">\t\tКитоби “Сарватмандтарин марди Бобил” маҷмӯае аз достонҳои воқеӣ аст, ки ҳам аз лиҳози адабӣ ва ҳам ба лиҳози роҳнамоиҳои молӣ ва иқтисодӣ ҷолиби таваҷҷуҳ мебошад.
+        \n\t\t\tДар ҳама достонҳо омилҳои мушкилоти моли мавриди баррасӣ қарор гирифта ва роҳҳои амалии ҷолибе барои рафъи он пешниҳод шудааст. Ҳадафи воқеӣ дар ин китоб дар он аст, ки алоқамандон ба муваффақияти молӣ ба кумаки он сарватманд шаванд, аз сарвати худ нигаҳдорӣ карда ва аз даромади ҳосили он сарват, сарвати бештаре ба даст оваранд.
+    </string>
+    <string name="writer_and_reader">Нависанда ва хонанда</string>
+    <string name="reader">Нависанда ва хонанда</string>
+    <string name="writer">Ҷорҷ Сэмюэл Клэйсон</string>
+
+    <string name="txt_info_book">Дар бораи китоб</string>
+    <string name="txt_language"><b>Забон:</b> Тоҷики</string>
+    <string name="txt_language_audio"><b>Сабти овоз:</b> Тоҷики</string>
+    <string name="txt_time_audio"><b>Давомникии аудио:</b>   06 соату 56 дақиқа</string>
+
+    <string name="txt_comments">Шарҳҳо</string>
+    <string name="write_comment">Навиштани шарҳ</string>
+    <string name="author">Нависанда</string>
+    <string name="other_book_author">Дигар китобҳои нависанда</string>
+
+    <string name="foreword">Пешгуфтор</string>
+    <string name="title_foreword">Ободии миллат аз некӯаҳволии молиявии ҳар шаҳрванд вобаста аст</string>
+    <string name="content1">Гуфтори 1</string>
+    <string name="title_content1">Хулосаи таърихӣ аз Бобил</string>
+    <string name="content2">Гуфтори 2</string>
+    <string name="title_content2">Марде, ки орзӯи сарватманд шуданро дошт</string>
+    <string name="content3">Гуфтори 3</string>
+    <string name="title_content3">Сарватмандтарин марди Бобил</string>
+    <string name="content4">Гуфтори 4</string>
+    <string name="title_content4">Ҳафт роҳи ҳалли як ҳамёни холӣ</string>
+    <string name="content5">Гуфтори 5</string>
+    <string name="title_content5"><b>Қоидаи якум.</b> Шурӯъ ба пури пул кардани ҳамён</string>
+    <string name="content6">Гуфтори 6</string>
+    <string name="title_content6"><b>Қоидаи дувум.</b> Назорат кардани хароҷот</string>
+    <string name="content7">Гуфтори 7</string>
+    <string name="title_content7"><b>Қоидаи сеюм.</b> Сарватро зиёд кардан</string>
+    <string name="content8">Гуфтори 8</string>
+    <string name="title_content8"><b>Қоидаи ҷаҳорум ва панҷум.</b> Сарвати худро аз зиён эмин нигоҳ доред</string>
+    <string name="content9">Гуфтори 9</string>
+    <string name="title_content9"><b>Қоидаи шашум.</b> Хонаи худро ба як корхонаи фоидаовар табдил диҳед</string>
+    <string name="content10">Гуфтори 10</string>
+    <string name="title_content10"><b>Қоидаи ҳафтум.</b> Қобилияти ба даст оварданро зиёд кунед</string>
+    <string name="content11">Гуфтори 11</string>
+    <string name="title_content11">Бо олиҳаи мувафақ мулоқот кунед</string>
+    <string name="content12">Гуфтори 12</string>
+    <string name="title_content12"><b>Панҷ қонуни тилло</b></string>
+    <string name="content13">Гуфтори 13</string>
+    <string name="title_content13"><b>Қонуни аввали тилло.</b> Девори Бобил</string>
+    <string name="content14">Гуфтори 14</string>
+    <string name="title_content14"><b>Қонуни дувуми тилло.</b> Қарздиҳандаи тиллоии Бобил</string>
+    <string name="content15">Гуфтори 15</string>
+    <string name="title_content15"><b>Қонуни сеюми тилло.</b> Тилло ба муҳофизат ниёз дорад</string>
+    <string name="content16">Гуфтори 16</string>
+    <string name="title_content16"><b>Қонуни чоруми тилло.</b> Касе, ки тилло дорад вале дар медирияти он моҳир нест</string>
+    <string name="content17">Гуфтори 17</string>
+    <string name="title_content17"><b>Қонуни панҷуми тилло.</b> Тоҷири шутурони Бобил</string>
+    <string name="content18">Гуфтори 18</string>
+    <string name="title_content18">Қарздиҳандаи тиллои Бобил</string>
+    <string name="content19">Гуфтори 19</string>
+    <string name="title_content19">Деворҳои Бобил</string>
+    <string name="content20">Гуфтори 20</string>
+    <string name="title_content20">Тоҷири шутурбони Бобил</string>
+    <string name="content21">Гуфтори 21</string>
+    <string name="title_content21">Лавҳаҳои гилини Бобил</string>
+    <string name="content22">Гуфтори 22</string>
+    <string name="title_content22">Лавҳаи шумораи як</string>
+    <string name="content23">Гуфтори 23</string>
+    <string name="title_content23">Лавҳаи шумораи ду ва се</string>
+    <string name="content24">Гуфтори 24</string>
+    <string name="title_content24">Лавҳаи шумораи ҷаҳор</string>
+    <string name="content25">Гуфтори 25</string>
+    <string name="title_content25">Лавҳаи шумораи панҷ</string>
+    <string name="content26">Гуфтори 26</string>
+    <string name="title_content26">Хушиқболтарин марди Бобил</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
