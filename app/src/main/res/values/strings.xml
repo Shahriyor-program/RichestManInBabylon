@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Сарватмандтарин марди Бобил</string>
+    <string name="author_name">Ҷорҷ Сэмюэл Клэйсон</string>
+    <string name="progress">18%</string>
+    <string name="time_audio">06 соату 56 дақиқа</string>
+    <string name="read">Хондан</string>
+    <string name="txt_content">Content</string>
+    <string name="txt_fragment_info">Info</string>
+    <string name="txt_more">More</string>
+
+    <string name="txt_conclusion">Хулоса</string>
+    <string name="txt_info">\t\tКитоби “Сарватмандтарин марди Бобил” маҷмӯае аз достонҳои воқеӣ аст, ки ҳам аз лиҳози адабӣ ва ҳам ба лиҳози роҳнамоиҳои молӣ ва иқтисодӣ ҷолиби таваҷҷуҳ мебошад.
+        \n\t\t\tДар ҳама достонҳо омилҳои мушкилоти моли мавриди баррасӣ қарор гирифта ва роҳҳои амалии ҷолибе барои рафъи он пешниҳод шудааст. Ҳадафи воқеӣ дар ин китоб дар он аст, ки алоқамандон ба муваффақияти молӣ ба кумаки он сарватманд шаванд, аз сарвати худ нигаҳдорӣ карда ва аз даромади ҳосили он сарват, сарвати бештаре ба даст оваранд.
+    </string>
+    <string name="writer_and_reader">Нависанда ва хонанда</string>
+    <string name="reader">Нависанда ва хонанда</string>
+    <string name="writer">Ҷорҷ Сэмюэл Клэйсон</string>
+
+    <string name="txt_info_book">Дар бораи китоб</string>
+    <string name="txt_language"><b>Забон:</b> Тоҷики</string>
+    <string name="txt_language_audio"><b>Сабти овоз:</b> Тоҷики</string>
+    <string name="txt_time_audio"><b>Давомникии аудио:</b>   06 соату 56 дақиқа</string>
+
+    <string name="txt_comments">Шарҳҳо</string>
+    <string name="write_comment">Навиштани шарҳ</string>
+    <string name="author">Нависанда</string>
+    <string name="other_book_author">Дигар китобҳои нависанда</string>
+
+    <string name="foreword">Пешгуфтор</string>
+    <string name="title_foreword">Ободии миллат аз некӯаҳволии молиявии ҳар шаҳрванд вобаста аст</string>
+    <string name="content1">Гуфтори 1</string>
+    <string name="title_content1">Хулосаи таърихӣ аз Бобил</string>
+    <string name="content2">Гуфтори 2</string>
+    <string name="title_content2">Марде, ки орзӯи сарватманд шуданро дошт</string>
+    <string name="content3">Гуфтори 3</string>
+    <string name="title_content3">Сарватмандтарин марди Бобил</string>
+    <string name="content4">Гуфтори 4</string>
+    <string name="title_content4">Ҳафт роҳи ҳалли як ҳамёни холӣ</string>
+    <string name="content5">Гуфтори 5</string>
+    <string name="title_content5"><b>Қоидаи якум.</b> Шурӯъ ба пури пул кардани ҳамён</string>
+    <string name="content6">Гуфтори 6</string>
+    <string name="title_content6"><b>Қоидаи дувум.</b> Назорат кардани хароҷот</string>
+    <string name="content7">Гуфтори 7</string>
+    <string name="title_content7"><b>Қоидаи сеюм.</b> Сарватро зиёд кардан</string>
+    <string name="content8">Гуфтори 8</string>
+    <string name="title_content8"><b>Қоидаи ҷаҳорум ва панҷум.</b> Сарвати худро аз зиён эмин нигоҳ доред</string>
+    <string name="content9">Гуфтори 9</string>
+    <string name="title_content9"><b>Қоидаи шашум.</b> Хонаи худро ба як корхонаи фоидаовар табдил диҳед</string>
+    <string name="content10">Гуфтори 10</string>
+    <string name="title_content10"><b>Қоидаи ҳафтум.</b> Қобилияти ба даст оварданро зиёд кунед</string>
+    <string name="content11">Гуфтори 11</string>
+    <string name="title_content11">Бо олиҳаи мувафақ мулоқот кунед</string>
+    <string name="content12">Гуфтори 12</string>
+    <string name="title_content12"><b>Панҷ қонуни тилло</b></string>
+    <string name="content13">Гуфтори 13</string>
+    <string name="title_content13"><b>Қонуни аввали тилло.</b> Девори Бобил</string>
+    <string name="content14">Гуфтори 14</string>
+    <string name="title_content14"><b>Қонуни дувуми тилло.</b> Қарздиҳандаи тиллоии Бобил</string>
+    <string name="content15">Гуфтори 15</string>
+    <string name="title_content15"><b>Қонуни сеюми тилло.</b> Тилло ба муҳофизат ниёз дорад</string>
+    <string name="content16">Гуфтори 16</string>
+    <string name="title_content16"><b>Қонуни чоруми тилло.</b> Касе, ки тилло дорад вале дар медирияти он моҳир нест</string>
+    <string name="content17">Гуфтори 17</string>
+    <string name="title_content17"><b>Қонуни панҷуми тилло.</b> Тоҷири шутурони Бобил</string>
+    <string name="content18">Гуфтори 18</string>
+    <string name="title_content18">Қарздиҳандаи тиллои Бобил</string>
+    <string name="content19">Гуфтори 19</string>
+    <string name="title_content19">Деворҳои Бобил</string>
+    <string name="content20">Гуфтори 20</string>
+    <string name="title_content20">Тоҷири шутурбони Бобил</string>
+    <string name="content21">Гуфтори 21</string>
+    <string name="title_content21">Лавҳаҳои гилини Бобил</string>
+    <string name="content22">Гуфтори 22</string>
+    <string name="title_content22">Лавҳаи шумораи як</string>
+    <string name="content23">Гуфтори 23</string>
+    <string name="title_content23">Лавҳаи шумораи ду ва се</string>
+    <string name="content24">Гуфтори 24</string>
+    <string name="title_content24">Лавҳаи шумораи ҷаҳор</string>
+    <string name="content25">Гуфтори 25</string>
+    <string name="title_content25">Лавҳаи шумораи панҷ</string>
+    <string name="content26">Гуфтори 26</string>
+    <string name="title_content26">Хушиқболтарин марди Бобил</string>
+</resources>
+
+    <!--
+link audio foreword:    https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/00_foreword.mp3?alt=media&token=c582de1c-1f42-484a-a039-cb8310846591
+link audio content 1:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content1.mp3?alt=media&token=a60e04d0-3ade-4359-9243-f69b8fe3b360
+link audio content 2:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content2.mp3?alt=media&token=a369d5a4-1540-403f-b932-c1243653d107
+link audio content 3:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content3.mp3?alt=media&token=36362888-71e1-45fd-9634-68fdecdb1acc
+link audio content 4:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content4.mp3?alt=media&token=d381f3e4-044f-4f44-9958-b397582fd24a
+link audio content 5:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content5.mp3?alt=media&token=f54eb7e6-27c1-4ddb-9d92-ff641232f81a
+link audio content 6:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content6.mp3?alt=media&token=5519cbd3-b8c3-4b02-98dc-d71c109d8cd2
+link audio content 7:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content7.mp3?alt=media&token=49ae8989-41b6-4f40-9196-5ddbeaf444ad
+link audio content 8:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content8.mp3?alt=media&token=b9dd0858-be29-4873-9cfc-8030a4979d4b
+link audio content 9:   https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content9.mp3?alt=media&token=265c1616-2b5a-4c25-b1c4-860b46dedfdc
+link audio content 10:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content10.mp3?alt=media&token=91fe75f4-de72-4471-88b6-0e4300937146
+link audio content 11:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content11.mp3?alt=media&token=cf5d35b8-167a-4d7e-a8ab-971429736b94
+link audio content 12:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content12.mp3?alt=media&token=4d6f52c3-2e10-4c00-a998-0018a2fdec47
+link audio content 13:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content13.mp3?alt=media&token=447f0f02-332b-479a-bd11-28a311c45c7b
+link audio content 14:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content14.mp3?alt=media&token=b284bfa1-7ed7-4f02-8ac7-7556823d7a82
+link audio content 15:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content15.mp3?alt=media&token=fb8259ee-357e-47b8-83a7-010d92694df2
+link audio content 16:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content16.mp3?alt=media&token=4f5bd894-8d0d-4fb6-a65b-b9b8f5c286cc
+link audio content 17:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content17.mp3?alt=media&token=e50fa21c-10bb-4307-824c-a66e299020df
+link audio content 18:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content18.mp3?alt=media&token=2075d2fb-1182-4455-8e7c-ec739b16665d
+link audio content 19:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content19.mp3?alt=media&token=e301fbaf-b9f8-4bec-bed0-cccb325ce4b6
+link audio content 20:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content20.mp3?alt=media&token=d43670f9-f4d3-42f6-9c7e-8c5eac84888b
+link audio content 21:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content21.mp3?alt=media&token=641f589a-bbe1-4f6f-9b63-b6dde2f949ad
+link audio content 22:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content22.mp3?alt=media&token=fd2afe9f-95ad-4168-8a9e-ca2b8f931f94
+link audio content 23:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content23.mp3?alt=media&token=4401a88b-1570-4892-abb4-1fcd0373b3b6
+link audio content 24:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content24.mp3?alt=media&token=76000e4a-5dfb-4532-b56d-0aa82268bbff
+link audio content 25:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content25.mp3?alt=media&token=7db6e3a1-8960-4d6d-9b13-eff654617ef3
+link audio content 26:  https://firebasestorage.googleapis.com/v0/b/book-richest-man-in-babylon.appspot.com/o/content26.mp3?alt=media&token=1b73712d-0989-4462-b4bd-fe07ff9fd5a1
+    -->
+

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_1"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/coHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--RelativeLayout Info book-->
+        <RelativeLayout
+            android:id="@+id/rlInfo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/background_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imageBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="93dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/logo_book" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="20dp">
+
+                <!--TextView Title Book-->
+                <TextView
+                    android:id="@+id/titleBook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:fontFamily="serif"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/yellow"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!--TextView name author-->
+                <TextView
+                    android:id="@+id/nameAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="serif"
+                    android:text="@string/author_name"
+                    android:textColor="@color/teal_200"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleBook" />
+
+                <!--Rate App-->
+                <LinearLayout
+                    android:id="@+id/rateApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_below="@id/nameAuthor"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/nameAuthor">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:src="@drawable/ic_rate_1" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:clickable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:src="@drawable/ic_rate_1"
+                        app:tint="@color/yellow" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:clickable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:src="@drawable/ic_rate_1"
+                        app:tint="@color/yellow" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:clickable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:src="@drawable/ic_rate_1"
+                        app:tint="@color/yellow" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:clickable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:src="@drawable/ic_rate"
+                        app:tint="@color/yellow" />
+
+                </LinearLayout>
+
+                <!--Progress Bar-->
+                <RelativeLayout
+                    android:id="@+id/rlProgressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/rateApp"
+                    android:layout_marginStart="-10dp"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rateApp">
+
+                    <SeekBar
+                        android:id="@+id/progressBarAllMedia"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:progress="18"
+                        android:progressTint="@color/yellow_02" />
+
+                    <TextView
+                        android:id="@+id/TextPlayer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/progressBarAllMedia"
+                        android:text="@string/progress"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <!--Time audio book-->
+                <TextView
+                    android:id="@+id/timeAudioBook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rlProgressBar"
+                    android:layout_marginTop="-5dp"
+                    android:text="@string/time_audio"
+                    android:textColor="@color/yellow_02"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rlProgressBar" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+
+        <!--Button Read-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnRead"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/rlInfo"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="-15dp"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            app:cardBackgroundColor="@color/color_menu"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rlInfo">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/read"
+                android:textAllCaps="true"
+                android:textColor="@color/yellow"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!--Button Play all audio-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/rlInfo"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="-15dp"
+            android:layout_toEndOf="@id/btnRead"
+            app:cardBackgroundColor="@color/color_menu"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintStart_toEndOf="@+id/btnRead"
+            app:layout_constraintTop_toBottomOf="@+id/rlInfo">
+
+            <ImageView
+                android:id="@+id/btnPlayAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                android:padding="4dp"
+                android:src="@drawable/ic_play" />
+
+            <ImageView
+                android:id="@+id/btnPause"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                android:padding="4dp"
+                android:src="@drawable/ic_pause"
+                android:visibility="gone" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!--TabLayout Content, Info and More-->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_tab_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rlInfo">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_content" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_fragment_info" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tamMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_more" />
+        </com.google.android.material.tabs.TabLayout>
+
+        <!--ViewPager for fragments-->
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabLayout">
+
+        </androidx.viewpager.widget.ViewPager>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
