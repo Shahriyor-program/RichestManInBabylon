@@ -75,8 +75,7 @@ public class ContentFragment extends Fragment implements ClickListener, Runnable
         txtEnd = rootView.findViewById(R.id.txtEnd);
         recyclerView.setLayoutManager(new LinearLayoutManager(context));
         recyclerView.setAdapter(new Adapter(context, MainActivity.items, this));
-        media_player.setVisibility(View.GONE);
-        btnPlaySpeed.setOnClickListener(new View.OnClickListener() {
+        media_player.setVisibility(View.GONE);btnPlaySpeed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mediaPlayer != null && mediaPlayer.isPlaying()) {
